@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Api-Gatway/Api-Gatway/Api-Gatway.iml" filepath="$PROJECT_DIR$/../Api-Gatway/Api-Gatway/Api-Gatway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DiscovaryServer/DiscovaryServer/DiscovaryServer.iml" filepath="$PROJECT_DIR$/../DiscovaryServer/DiscovaryServer/DiscovaryServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Notification-service/Notification-service/Notification-service.iml" filepath="$PROJECT_DIR$/../Notification-service/Notification-service/Notification-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../inventory-service/inventory-service/inventory-service.iml" filepath="$PROJECT_DIR$/../inventory-service/inventory-service/inventory-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../order-service/order-service/order-service.iml" filepath="$PROJECT_DIR$/../order-service/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />
+    </modules>
+  </component>
+</project>
