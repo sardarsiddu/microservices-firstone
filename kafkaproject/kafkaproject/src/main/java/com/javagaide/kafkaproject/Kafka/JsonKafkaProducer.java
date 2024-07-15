@@ -23,7 +23,18 @@ public class JsonKafkaProducer {
                 .build();
         kafkaTemplate.send(message);
     }
+
+    // all are git push parpes 1 and 2
+    
     public void sendMessage1(UserKafka datekafka){
+        System.out.println(String.format("message sent JSon -> %s", datekafka.toString()));
+        Message<UserKafka> message = MessageBuilder
+                .withPayload(datekafka)
+                .setHeader(KafkaHeaders.TOPIC,"javagaides_json")
+                .build();
+        kafkaTemplate.send(message);
+    }
+    public void sendMessage2(UserKafka datekafka){
         System.out.println(String.format("message sent JSon -> %s", datekafka.toString()));
         Message<UserKafka> message = MessageBuilder
                 .withPayload(datekafka)
