@@ -25,7 +25,7 @@ public class JsonKafkaProducer {
     }
 
     // all are git push parpes 1 and 2
-    
+
     public void sendMessage1(UserKafka datekafka){
         System.out.println(String.format("message sent JSon -> %s", datekafka.toString()));
         Message<UserKafka> message = MessageBuilder
